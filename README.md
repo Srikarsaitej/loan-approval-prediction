@@ -202,7 +202,7 @@ Possible improvements to enhance the project:
 B.Tech Computer Science Engineering
 Lovely Professional University
 
-LinkedIn: *(add your LinkedIn profile link here)*
+LinkedIn: https://www.linkedin.com/in/srikar-sai/
 
 ---
 
