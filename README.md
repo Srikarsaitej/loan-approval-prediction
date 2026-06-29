@@ -110,14 +110,34 @@ The dataset was split into:
 
 # 📈 Model Performance
 
-| Model         | Accuracy  |
-| ------------- | --------- |
-| Naive Bayes   | **83.7%** |
-| Random Forest | ~80%      |
-| Decision Tree | ~78%      |
-| KNN           | ~75%      |
+| Model                     | Accuracy     |
+| ------------------------- | ------------ |
+| Random Forest             | **76.42%** ⭐ |
+| Decision Tree             | 71.54%       |
+| K-Nearest Neighbors (KNN) | 55.28%       |
+| Naive Bayes               | 27.64%       |
 
-Naive Bayes achieved the highest prediction accuracy.
+### Key Findings
+
+✔ Random Forest achieved the best performance with **76.42% accuracy**.
+
+✔ Decision Tree provided competitive results with **71.54% accuracy**.
+
+✔ Income-based feature engineering and credit history significantly influenced prediction quality.
+
+✔ Credit history emerged as the strongest indicator of loan approval decisions.
+
+---
+
+⭐ Key Highlights
+
+✔ Built an end-to-end machine learning pipeline for automated loan approval prediction.
+
+✔ Achieved **76.42% classification accuracy using Random Forest**, the best-performing model among four evaluated algorithms.
+
+✔ Engineered financial features including TotalIncome and logarithmic transformations to improve model performance.
+
+✔ Conducted comprehensive EDA to identify credit history as the primary factor influencing loan approval decisions.
 
 ---
 
@@ -177,10 +197,13 @@ jupyter notebook
 
 Some important insights discovered during analysis:
 
-✔ Credit history is the strongest factor influencing loan approval
-✔ Applicants with higher income have a higher probability of approval
-✔ Loan amount distribution is right-skewed
-✔ Log transformations improve model performance
+✔ Credit history is the strongest factor influencing loan approval.
+
+✔ Applicants with higher total income exhibit a greater probability of loan approval.
+
+✔ Loan amount and income distributions are highly right-skewed, making log transformations beneficial.
+
+✔ Feature engineering using TotalIncome, TotalIncome_log, and LoanAmount_log improved model stability and predictive performance.
 
 ---
 
